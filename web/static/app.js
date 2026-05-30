@@ -10,6 +10,7 @@ const state = {
     stats: { total: 0, car: 0, motorcycle: 0, bus: 0, truck: 0 },
     reconnectDelay: 1000,
     maxReconnectDelay: 10000,
+    lastLivePlate: "",
 };
 
 // ── DOM References ───────────────────────────────────────────────────
@@ -21,14 +22,15 @@ const dom = {
     emptyState: document.getElementById("empty-state"),
     plateCount: document.getElementById("plate-count"),
     statTotal: document.getElementById("stat-total"),
-    statCars: document.getElementById("stat-cars"),
-    statMotos: document.getElementById("stat-motos"),
-    statBuses: document.getElementById("stat-buses"),
     lastDetection: document.getElementById("last-detection"),
     lastPlate: document.getElementById("last-plate"),
     lastType: document.getElementById("last-type"),
     videoStream: document.getElementById("video-stream"),
     videoOverlay: document.getElementById("video-overlay"),
+    livePlateBar: document.getElementById("live-plate-bar"),
+    livePlateText: document.getElementById("live-plate-text"),
+    livePlateType: document.getElementById("live-plate-type"),
+    _livePlateTimer: null,
 };
 
 // Initialize status dot and text references
@@ -66,7 +68,11 @@ function connectWebSocket() {
     state.ws.onmessage = (event) => {
         try {
             const data = JSON.parse(event.data);
-            handleDetection(data);
+            if (data.type === "live") {
+                updateLivePlate(data);
+            } else {
+                handleDetection(data);
+            }
         } catch (e) {
             console.error("Error parsing WebSocket message:", e);
         }
@@ -120,9 +126,6 @@ function handleDetection(data) {
 
 function updateStats() {
     dom.statTotal.textContent = state.stats.total;
-    dom.statCars.textContent = state.stats.car;
-    dom.statMotos.textContent = state.stats.motorcycle;
-    dom.statBuses.textContent = state.stats.bus + state.stats.truck;
     dom.plateCount.textContent = state.stats.total;
 }
 
@@ -131,18 +134,11 @@ function renderDetection(data) {
     const card = document.createElement("div");
     card.className = "detection-card new";
 
-    const type = data.vehicle_type || "car";
-    const icon = VEHICLE_ICONS[type] || "🚗";
-    const label = VEHICLE_LABELS[type] || type;
     const time = formatTime(data.timestamp);
 
     card.innerHTML = `
-        <div class="detection-card__icon">${icon}</div>
         <div class="detection-card__info">
             <div class="detection-card__plate">${escapeHtml(data.plate)}</div>
-            <div class="detection-card__meta">
-                <span class="vehicle-tag vehicle-tag--${type}">${label}</span>
-            </div>
         </div>
         <span class="detection-card__time">${time}</span>
     `;
@@ -173,6 +169,33 @@ function updateLastDetection(data) {
     dom.lastDetection.style.animation = "none";
     dom.lastDetection.offsetHeight; // force reflow
     dom.lastDetection.style.animation = "";
+}
+
+function updateLivePlate(data) {
+    const type = data.vehicle_type || "car";
+
+    // Actualizar barra debajo de la cámara
+    dom.livePlateBar.hidden = false;
+    dom.livePlateText.textContent = data.plate || "---";
+
+    clearTimeout(dom._livePlateTimer);
+    dom._livePlateTimer = setTimeout(() => {
+        dom.livePlateBar.hidden = true;
+    }, 3000);
+
+    // Agregar a la lista de detecciones si la placa cambió
+    if (data.plate && data.plate !== state.lastLivePlate) {
+        state.lastLivePlate = data.plate;
+        const entry = { ...data, timestamp: new Date().toISOString() };
+        state.plates.unshift(entry);
+        if (state.plates.length > 50) state.plates.pop();
+        state.stats.total++;
+        if (type in state.stats) state.stats[type]++;
+        updateStats();
+        renderDetection(entry);
+        updateLastDetection(entry);
+        hideEmptyState();
+    }
 }
 
 function hideEmptyState() {
@@ -231,9 +254,24 @@ async function loadHistory() {
     }
 }
 
+// ── Polling de detección en vivo ─────────────────────────────────────
+async function pollDetection() {
+    try {
+        const res = await fetch("/api/latest-detection");
+        const data = await res.json();
+        if (data.plate) {
+            updateLivePlate(data);
+        }
+    } catch (e) {
+        // servidor no disponible aún, reintentar
+    }
+    setTimeout(pollDetection, 500);
+}
+
 // ── Init ─────────────────────────────────────────────────────────────
 document.addEventListener("DOMContentLoaded", () => {
     setupVideoStream();
     loadHistory();
     connectWebSocket();
+    pollDetection();
 });

@@ -48,15 +48,20 @@
                 </span>
             </div>
             <div class="video-container">
-                <img 
-                    id="video-stream" 
-                    src="/stream" 
+                <img
+                    id="video-stream"
+                    src="/stream"
                     alt="Stream de cámara en vivo"
                     class="video-feed"
                 >
                 <div class="video-overlay" id="video-overlay">
                     <p>⏳ Esperando señal de cámara...</p>
                 </div>
+            </div>
+            <div class="live-plate-bar" id="live-plate-bar" hidden>
+                <span class="live-plate-bar__pulse"></span>
+                <span class="live-plate-bar__label">Detectando</span>
+                <span class="live-plate-bar__text" id="live-plate-text">---</span>
             </div>
         </section>
 
@@ -74,22 +79,10 @@
             </div>
 
             <!-- Stats Bar -->
-            <div class="stats-bar">
+            <div class="stats-bar stats-bar--simple">
                 <div class="stat">
                     <span class="stat__value" id="stat-total">0</span>
-                    <span class="stat__label">Total</span>
-                </div>
-                <div class="stat">
-                    <span class="stat__value" id="stat-cars">0</span>
-                    <span class="stat__label">Carros</span>
-                </div>
-                <div class="stat">
-                    <span class="stat__value" id="stat-motos">0</span>
-                    <span class="stat__label">Motos</span>
-                </div>
-                <div class="stat">
-                    <span class="stat__value" id="stat-buses">0</span>
-                    <span class="stat__label">Buses</span>
+                    <span class="stat__label">Total detectadas</span>
                 </div>
             </div>
 

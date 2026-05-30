@@ -262,6 +262,51 @@ body {
     pointer-events: none;
 }
 
+/* ── Live Plate Bar ──────────────────────────────────────────────── */
+.live-plate-bar {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1.25rem;
+    background: rgba(99, 102, 241, 0.12);
+    border-top: 1px solid rgba(99, 102, 241, 0.3);
+}
+
+.live-plate-bar__pulse {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--accent-primary);
+    flex-shrink: 0;
+    animation: pulse-accent 1.2s infinite;
+}
+
+@keyframes pulse-accent {
+    0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(99, 102, 241, 0.6); }
+    50% { opacity: 0.7; box-shadow: 0 0 0 6px rgba(99, 102, 241, 0); }
+}
+
+.live-plate-bar__label {
+    font-size: 0.72rem;
+    color: var(--text-muted);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    flex-shrink: 0;
+}
+
+.live-plate-bar__text {
+    font-family: var(--font-mono);
+    font-size: 1.3rem;
+    font-weight: 700;
+    background: var(--gradient-accent);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 0.18em;
+    flex: 1;
+}
+
 /* ── Stats Bar ───────────────────────────────────────────────────── */
 .stats-bar {
     display: grid;
@@ -269,6 +314,10 @@ body {
     gap: 1px;
     background: var(--glass-border);
     border-bottom: 1px solid var(--glass-border);
+}
+
+.stats-bar--simple {
+    grid-template-columns: 1fr;
 }
 
 .stat {

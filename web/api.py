@@ -26,6 +26,9 @@ tracker = PlateTracker()
 _latest_frame = None
 _frame_lock = threading.Lock()
 
+# Última detección en vivo (para polling desde el frontend)
+_latest_live_detection: dict | None = None
+
 # Historial de placas confirmadas (últimas 50)
 plate_log: list[dict] = []
 MAX_LOG = 50
@@ -109,7 +112,7 @@ _detections_lock = threading.Lock()
 
 def _detection_loop():
     """Toma frames, ejecuta IA y envía resultados por WebSocket."""
-    global _latest_detections
+    global _latest_detections, _latest_live_detection
 
     while True:
         # Tomar el frame más reciente
@@ -132,6 +135,18 @@ def _detection_loop():
         with _detections_lock:
             _latest_detections = detections
 
+        # Guardar y broadcast detección en vivo
+        if detections:
+            from datetime import datetime
+            best = max(detections, key=lambda d: d.ocr_confidence)
+            live_entry = {
+                "type": "live",
+                "plate": best.plate_text,
+                "timestamp": datetime.now().isoformat(),
+            }
+            _latest_live_detection = live_entry
+            _broadcast(live_entry)
+
         # Procesar cada detección en el tracker
         for det in detections:
             confirmed = tracker.add_reading(
@@ -139,6 +154,7 @@ def _detection_loop():
             )
             if confirmed:
                 entry = {
+                    "type": "confirmed",
                     "plate": confirmed.plate,
                     "vehicle_type": confirmed.vehicle_type,
                     "confidence": round(confirmed.confidence, 2),
@@ -213,6 +229,12 @@ def list_cameras():
 def get_plates():
     """Retorna el historial de placas detectadas."""
     return {"plates": plate_log}
+
+
+@app.get("/api/latest-detection")
+def get_latest_detection():
+    """Retorna la última detección en vivo (para polling desde el frontend)."""
+    return _latest_live_detection or {}
 
 
 @app.websocket("/ws")
