@@ -229,7 +229,7 @@ class PlateDetector:
             if roi.size == 0:
                 continue
 
-            candidates = self._ocr_candidates(roi) + self._ocr_candidates(frame)
+            candidates = self._ocr_candidates(roi)
             candidates = self._dedupe_candidates(candidates)
             best = self._best_candidate(candidates)
             if best is None:

@@ -63,6 +63,14 @@ def normalize_plate(text: str) -> str:
     candidates = [_candidate(cleaned, roles) for roles in role_options]
     candidates.append(cleaned)
 
+    # Añadir variantes quitando la "I" inicial y el "1" final (artefactos del borde)
+    if cleaned.startswith("I"):
+        candidates.append(cleaned[1:])
+    if cleaned.endswith("1"):
+        candidates.append(cleaned[:-1])
+    if cleaned.startswith("I") and cleaned.endswith("1"):
+        candidates.append(cleaned[1:-1])
+
     for candidate in candidates:
         if is_valid_colombian_plate(candidate):
             return candidate

@@ -145,7 +145,7 @@ function UploadZone({ onUpload }) {
                 {d.rf_valid ? "✅ Placa válida" : "❌ No válida"}
               </span>
               <span className="confidence">
-                YOLO: {(d.vehicle_confidence * 100).toFixed(0)}% · 
+                YOLO: {(d.vehicle_confidence * 100).toFixed(0)}% ·
                 OCR: {(d.ocr_confidence * 100).toFixed(0)}%
               </span>
             </div>
@@ -169,77 +169,6 @@ function UploadZone({ onUpload }) {
 }
 
 // ── Visualización 1: Distribución de tipos de vehículo (Barras) ─────────
-function CameraPanel({ onDetection }) {
-  const [running, setRunning] = useState(false);
-  const [source, setSource] = useState("0");
-  const [analyzing, setAnalyzing] = useState(false);
-  const [result, setResult] = useState(null);
-  const [error, setError] = useState(null);
-
-  const startCamera = async () => {
-    setError(null);
-    setResult(null);
-    try {
-      const res = await fetch(`${API}/camera/start?source=${encodeURIComponent(source)}`, { method: "POST" });
-      const data = await res.json();
-      if (!res.ok) throw new Error(data.detail || "No se pudo iniciar la camara");
-      setRunning(true);
-    } catch (e) {
-      setError(e.message);
-    }
-  };
-
-  const stopCamera = async () => {
-    await fetch(`${API}/camera/stop`, { method: "POST" });
-    setRunning(false);
-  };
-
-  const analyzeFrame = async () => {
-    setAnalyzing(true);
-    setError(null);
-    try {
-      const res = await fetch(`${API}/camera/analyze`, { method: "POST" });
-      const data = await res.json();
-      if (!res.ok) throw new Error(data.detail || "Error analizando frame");
-      setResult(data);
-      onDetection();
-    } catch (e) {
-      setError(e.message);
-    } finally {
-      setAnalyzing(false);
-    }
-  };
-
-  return (
-    <div className="camera-panel">
-      <div className="camera-controls">
-        <input value={source} onChange={(e) => setSource(e.target.value)} disabled={running} placeholder="0, 1 o URL" />
-        {!running ? <button onClick={startCamera}>Iniciar camara</button> : <button onClick={stopCamera}>Detener</button>}
-        <button onClick={analyzeFrame} disabled={!running || analyzing}>{analyzing ? "Analizando..." : "Analizar frame"}</button>
-      </div>
-      {error && <div className="error-banner">{error}</div>}
-      <div className="camera-view">
-        {running ? <img src={`${API}/camera/stream?t=${Date.now()}`} alt="Stream de camara" /> : (
-          <div className="empty-state"><p>Inicia la camara para ver el video en vivo.</p></div>
-        )}
-      </div>
-      {result && (
-        <div className="detection-result">
-          <h4>Resultado de camara</h4>
-          {result.detections?.length ? result.detections.map((d, i) => (
-            <div key={i} className="detection-card">
-              <span className={`vehicle-badge ${d.vehicle_type}`}>{VEHICLE_LABELS[d.vehicle_type] || d.vehicle_type}</span>
-              <span className="plate-text">{d.plate_text || "Sin placa"}</span>
-              <span className={`validity-badge ${d.rf_valid ? "valid" : "invalid"}`}>{d.rf_valid ? "Placa valida" : "No valida"}</span>
-              <span className="confidence">YOLO: {(d.vehicle_confidence * 100).toFixed(0)}% · OCR: {(d.ocr_confidence * 100).toFixed(0)}%</span>
-            </div>
-          )) : <p>No se detectaron placas en este frame.</p>}
-        </div>
-      )}
-    </div>
-  );
-}
-
 function VehicleDistributionChart({ stats }) {
   if (!stats?.vehicle_distribution) return null;
 
@@ -302,7 +231,7 @@ function PlateValidityChart({ stats }) {
           cumplimiento del patrón colombiano) para distinguir placas reales de ruido OCR.
           {metrics.accuracy && (
             <> La exactitud alcanzada es del <strong>{(metrics.accuracy * 100).toFixed(1)}%</strong>,
-            con F1-score de <strong>{(metrics.f1_score * 100).toFixed(1)}%</strong>.</>
+              con F1-score de <strong>{(metrics.f1_score * 100).toFixed(1)}%</strong>.</>
           )}
         </p>
       </div>
@@ -583,10 +512,6 @@ export default function App() {
       {/* Footer con info del modelo */}
       <footer className="app-footer">
         <span>YOLOv8 + EasyOCR + Random Forest</span>
-        <span>·</span>
-        <span>Placas formato colombiano AAA·NN / AAA·NNF</span>
-        <span>·</span>
-        <span>Dataset: Roboflow ITM Placas Colombia</span>
       </footer>
     </div>
   );
