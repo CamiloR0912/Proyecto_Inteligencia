@@ -1,13 +1,21 @@
-"""Módulo de detección de vehículos y reconocimiento de placas."""
-from .detector import PlateDetector, Detection
-from .tracker import PlateTracker
-from .plate_utils import normalize_plate, PLATE_REGEX, VEHICLE_CLASSES
+"""Detection package.
+
+Heavy vision dependencies are imported from detection.detector only when the
+backend needs to run YOLO/EasyOCR.
+"""
+
+from .plate_utils import (
+    PATTERNS,
+    classify_plate_type,
+    extract_features,
+    is_valid_colombian_plate,
+    normalize_plate,
+)
 
 __all__ = [
-    "PlateDetector",
-    "Detection",
-    "PlateTracker",
+    "PATTERNS",
+    "classify_plate_type",
+    "extract_features",
+    "is_valid_colombian_plate",
     "normalize_plate",
-    "PLATE_REGEX",
-    "VEHICLE_CLASSES",
 ]

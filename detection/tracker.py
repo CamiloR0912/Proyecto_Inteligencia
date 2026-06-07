@@ -5,7 +5,7 @@ from collections import Counter
 from difflib import SequenceMatcher
 from dataclasses import dataclass, field
 
-from .plate_utils import normalize_plate, is_valid_plate
+from .plate_utils import normalize_plate, is_valid_colombian_plate as is_valid_plate
 
 logger = logging.getLogger(__name__)
 

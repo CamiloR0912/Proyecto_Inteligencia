@@ -1,0 +1,29 @@
+{
+  "accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1_score": 1.0,
+  "confusion_matrix": [
+    [
+      1252,
+      0
+    ],
+    [
+      0,
+      2500
+    ]
+  ],
+  "feature_importances": {
+    "text_length": 0.1949,
+    "num_letters": 0.0245,
+    "num_digits": 0.0122,
+    "ocr_confidence": 0.3342,
+    "bbox_ratio": 0.347,
+    "matches_pattern": 0.0872
+  },
+  "n_estimators": 120,
+  "training_samples": 11254,
+  "test_samples": 3752,
+  "dataset_rows": 9999,
+  "dataset_source": "dataset_placas_colombia.csv"
+}
