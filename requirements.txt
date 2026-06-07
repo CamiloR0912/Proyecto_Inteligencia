@@ -1,6 +1,18 @@
+# ── Backend ──────────────────────────────────────────────────────────
 fastapi
 uvicorn[standard]
-opencv-python
+python-multipart
+
+# ── ML / Visión ───────────────────────────────────────────────────────
 ultralytics
 easyocr
-websockets
+scikit-learn
+numpy
+opencv-python-headless
+Pillow
+
+# ── Análisis de datos ─────────────────────────────────────────────────
+pandas
+
+# ── Desarrollo ────────────────────────────────────────────────────────
+python-dotenv

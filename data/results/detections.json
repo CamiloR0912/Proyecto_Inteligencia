@@ -1,0 +1,6066 @@
+[
+  {
+    "id": "233ab5c6",
+    "filename": "233ab5c6_motos-colombia-1.jpg",
+    "timestamp": "2026-06-04T16:39:10.859712",
+    "vehicle_type": "motorcycle",
+    "vehicle_confidence": 0.789,
+    "plate_text": "ZGZ01",
+    "ocr_confidence": 0.42,
+    "bbox_ratio": 1.334,
+    "rf_valid": false,
+    "rf_confidence": 0.0,
+    "matches_pattern": true,
+    "dataset_match": null,
+    "ocr_candidates": [
+      {
+        "plate_text": "ZGZ01",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true
+      },
+      {
+        "plate_text": "COL07814",
+        "ocr_confidence": 0.0918605689285992,
+        "matches_pattern": false
+      }
+    ]
+  },
+  {
+    "id": "cba8e2f2",
+    "filename": "cba8e2f2_motos-colombia-1.jpg",
+    "timestamp": "2026-06-04T16:45:07.530386",
+    "vehicle_type": "motorcycle",
+    "vehicle_confidence": 0.789,
+    "plate_text": "ZGZ01",
+    "ocr_confidence": 0.42,
+    "bbox_ratio": 1.334,
+    "rf_valid": false,
+    "rf_confidence": 0.0,
+    "matches_pattern": true,
+    "dataset_match": null,
+    "ocr_candidates": [
+      {
+        "plate_text": "ZGZ01",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true
+      },
+      {
+        "plate_text": "COL07814",
+        "ocr_confidence": 0.0918605689285992,
+        "matches_pattern": false
+      }
+    ]
+  },
+  {
+    "id": "bab65dfa",
+    "filename": "bab65dfa_motos-colombia-1.jpg",
+    "timestamp": "2026-06-04T16:48:45.911682",
+    "vehicle_type": "motorcycle",
+    "vehicle_confidence": 0.789,
+    "plate_text": "IUF62A",
+    "ocr_confidence": 0.814,
+    "bbox_ratio": 1.334,
+    "rf_valid": true,
+    "rf_confidence": 0.583,
+    "matches_pattern": true,
+    "dataset_match": null,
+    "ocr_candidates": [
+      {
+        "plate_text": "IUF62A",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62B",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62C",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62D",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62E",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      }
+    ]
+  },
+  {
+    "id": "4d1e8844",
+    "filename": "4d1e8844_motos-colombia-1.jpg",
+    "timestamp": "2026-06-04T16:52:03.664409",
+    "vehicle_type": "motorcycle",
+    "vehicle_confidence": 0.789,
+    "plate_text": "WUF62C",
+    "ocr_confidence": 0.814,
+    "bbox_ratio": 1.334,
+    "rf_valid": true,
+    "rf_confidence": 0.583,
+    "matches_pattern": true,
+    "dataset_match": {
+      "plate": "WUF62C",
+      "type": "Moto",
+      "service": "Motocicleta",
+      "registration_location": "COLOMBIA"
+    },
+    "ocr_candidates": [
+      {
+        "plate_text": "IUF62A",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62B",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62C",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62D",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62E",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62F",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62G",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62H",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62I",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62J",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62K",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62L",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62M",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62N",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62O",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62P",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62Q",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62R",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62S",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62T",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62U",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62V",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62W",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62X",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62Y",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62Z",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62A",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62B",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62C",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62D",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62E",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62F",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62G",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62H",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62I",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62J",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62K",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62L",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62M",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62N",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62O",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62P",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62Q",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62R",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62S",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62T",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62U",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62V",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62W",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62X",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62Y",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62Z",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF26A",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26B",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26C",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26D",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26E",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26F",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26G",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26H",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26I",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26J",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26K",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26L",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26M",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26N",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26O",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26P",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26Q",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26R",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26S",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26T",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26U",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26V",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26W",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26X",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26Y",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26Z",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "WUF26A",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "WUF26B",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      }
+    ]
+  },
+  {
+    "id": "dc6f4bd1",
+    "filename": "dc6f4bd1_motos-colombia-1.jpg",
+    "timestamp": "2026-06-04T16:54:36.742200",
+    "vehicle_type": "motorcycle",
+    "vehicle_confidence": 0.789,
+    "plate_text": "WUF62C",
+    "ocr_confidence": 0.814,
+    "bbox_ratio": 1.334,
+    "rf_valid": true,
+    "rf_confidence": 0.583,
+    "matches_pattern": true,
+    "dataset_match": {
+      "plate": "WUF62C",
+      "type": "Moto",
+      "service": "Motocicleta",
+      "registration_location": "COLOMBIA"
+    },
+    "ocr_candidates": [
+      {
+        "plate_text": "IUF62A",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62B",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62C",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62D",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62E",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62F",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62G",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62H",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62I",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62J",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62K",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62L",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62M",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62N",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62O",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62P",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62Q",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62R",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62S",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62T",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62U",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62V",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62W",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62X",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62Y",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62Z",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62A",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62B",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62C",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62D",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62E",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62F",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62G",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62H",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62I",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62J",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62K",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62L",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62M",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62N",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62O",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62P",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62Q",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62R",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62S",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62T",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62U",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62V",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62W",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62X",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62Y",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62Z",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF26A",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26B",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26C",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26D",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26E",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26F",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26G",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26H",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26I",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26J",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26K",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26L",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26M",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26N",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26O",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26P",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26Q",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26R",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26S",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26T",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26U",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26V",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26W",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26X",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26Y",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26Z",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "WUF26A",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "WUF26B",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      }
+    ]
+  },
+  {
+    "id": "94250312",
+    "filename": "94250312_motos-colombia-1.jpg",
+    "timestamp": "2026-06-04T16:56:43.814527",
+    "vehicle_type": "motorcycle",
+    "vehicle_confidence": 0.789,
+    "plate_text": "WUF62C",
+    "ocr_confidence": 0.814,
+    "bbox_ratio": 1.334,
+    "rf_valid": true,
+    "rf_confidence": 0.583,
+    "matches_pattern": true,
+    "dataset_match": {
+      "plate": "WUF62C",
+      "type": "Moto",
+      "service": "Motocicleta",
+      "registration_location": "COLOMBIA"
+    },
+    "ocr_candidates": [
+      {
+        "plate_text": "IUF62A",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62B",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62C",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62D",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62E",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62F",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62G",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62H",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62I",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62J",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62K",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62L",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62M",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62N",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62O",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62P",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62Q",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62R",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62S",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62T",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62U",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62V",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62W",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62X",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62Y",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62Z",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62A",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62B",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62C",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62D",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62E",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62F",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62G",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62H",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62I",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62J",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62K",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62L",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62M",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62N",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62O",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62P",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62Q",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62R",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62S",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62T",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62U",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62V",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62W",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62X",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62Y",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62Z",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF26A",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26B",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26C",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26D",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26E",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26F",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26G",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26H",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26I",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26J",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26K",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26L",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26M",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26N",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26O",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26P",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26Q",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26R",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26S",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26T",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26U",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26V",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26W",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26X",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26Y",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26Z",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "WUF26A",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "WUF26B",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      }
+    ]
+  },
+  {
+    "id": "490d2434",
+    "filename": "490d2434_motos-colombia-1.jpg",
+    "timestamp": "2026-06-04T17:06:43.875204",
+    "vehicle_type": "motorcycle",
+    "vehicle_confidence": 0.789,
+    "plate_text": "WUF62C",
+    "ocr_confidence": 0.814,
+    "bbox_ratio": 1.334,
+    "rf_valid": true,
+    "rf_confidence": 0.583,
+    "matches_pattern": true,
+    "dataset_match": {
+      "plate": "WUF62C",
+      "type": "Moto",
+      "service": "Motocicleta",
+      "registration_location": "COLOMBIA"
+    },
+    "ocr_candidates": [
+      {
+        "plate_text": "IUF62A",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62B",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62C",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62D",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62E",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62F",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62G",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62H",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62I",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62J",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62K",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62L",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62M",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62N",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62O",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62P",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62Q",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62R",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62S",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62T",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62U",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62V",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62W",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62X",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62Y",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF62Z",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62A",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62B",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62C",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62D",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62E",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62F",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62G",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62H",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62I",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62J",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62K",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62L",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62M",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62N",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62O",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62P",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62Q",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62R",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62S",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62T",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62U",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62V",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62W",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62X",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62Y",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "WUF62Z",
+        "ocr_confidence": 0.8141043186187744,
+        "matches_pattern": true,
+        "source": "IUF+6201"
+      },
+      {
+        "plate_text": "IUF26A",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26B",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26C",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26D",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26E",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26F",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26G",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26H",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26I",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26J",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26K",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26L",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26M",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26N",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26O",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26P",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26Q",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26R",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26S",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26T",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26U",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26V",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26W",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26X",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26Y",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "IUF26Z",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "WUF26A",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      },
+      {
+        "plate_text": "WUF26B",
+        "ocr_confidence": 0.4202820553443891,
+        "matches_pattern": true,
+        "source": "IUF+26201"
+      }
+    ]
+  },
+  {
+    "id": "7b50b8bf",
+    "filename": "7b50b8bf_moto placaview1.jpeg",
+    "timestamp": "2026-06-04T17:13:59.238990",
+    "vehicle_type": "unknown",
+    "vehicle_confidence": 0.0,
+    "plate_text": "OBL44A",
+    "ocr_confidence": 0.132,
+    "bbox_ratio": 1.778,
+    "rf_valid": false,
+    "rf_confidence": 0.208,
+    "matches_pattern": true,
+    "dataset_match": null,
+    "ocr_candidates": [
+      {
+        "plate_text": "OBL44A",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+4X4"
+      },
+      {
+        "plate_text": "OBL44B",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+4X4"
+      },
+      {
+        "plate_text": "OBL44C",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+4X4"
+      },
+      {
+        "plate_text": "OBL44D",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+4X4"
+      },
+      {
+        "plate_text": "OBL44E",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+4X4"
+      },
+      {
+        "plate_text": "OBL44F",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+4X4"
+      },
+      {
+        "plate_text": "OBL44G",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+4X4"
+      },
+      {
+        "plate_text": "OBL44H",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+4X4"
+      },
+      {
+        "plate_text": "OBL44I",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+4X4"
+      },
+      {
+        "plate_text": "OBL44J",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+4X4"
+      },
+      {
+        "plate_text": "OBL44K",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+4X4"
+      },
+      {
+        "plate_text": "OBL44L",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+4X4"
+      },
+      {
+        "plate_text": "OBL44M",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+4X4"
+      },
+      {
+        "plate_text": "OBL44N",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+4X4"
+      },
+      {
+        "plate_text": "OBL44O",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+4X4"
+      },
+      {
+        "plate_text": "OBL44P",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+4X4"
+      },
+      {
+        "plate_text": "OBL44Q",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+4X4"
+      },
+      {
+        "plate_text": "OBL44R",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+4X4"
+      },
+      {
+        "plate_text": "OBL44S",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+4X4"
+      },
+      {
+        "plate_text": "OBL44T",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+4X4"
+      },
+      {
+        "plate_text": "OBL44U",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+4X4"
+      },
+      {
+        "plate_text": "OBL44V",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+4X4"
+      },
+      {
+        "plate_text": "OBL44W",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+4X4"
+      },
+      {
+        "plate_text": "OBL44X",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+4X4"
+      },
+      {
+        "plate_text": "OBL44Y",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+4X4"
+      },
+      {
+        "plate_text": "OBL44Z",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+4X4"
+      },
+      {
+        "plate_text": "OBL79A",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+OBT7B90"
+      },
+      {
+        "plate_text": "OBL79B",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+OBT7B90"
+      },
+      {
+        "plate_text": "OBL79C",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+OBT7B90"
+      },
+      {
+        "plate_text": "OBL79D",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+OBT7B90"
+      },
+      {
+        "plate_text": "OBL79E",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+OBT7B90"
+      },
+      {
+        "plate_text": "OBL79F",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+OBT7B90"
+      },
+      {
+        "plate_text": "OBL79G",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+OBT7B90"
+      },
+      {
+        "plate_text": "OBL79H",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+OBT7B90"
+      },
+      {
+        "plate_text": "OBL79I",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+OBT7B90"
+      },
+      {
+        "plate_text": "OBL79J",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+OBT7B90"
+      },
+      {
+        "plate_text": "OBL79K",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+OBT7B90"
+      },
+      {
+        "plate_text": "OBL79L",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+OBT7B90"
+      },
+      {
+        "plate_text": "OBL79M",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+OBT7B90"
+      },
+      {
+        "plate_text": "OBL79N",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+OBT7B90"
+      },
+      {
+        "plate_text": "OBL79O",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+OBT7B90"
+      },
+      {
+        "plate_text": "OBL79P",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+OBT7B90"
+      },
+      {
+        "plate_text": "OBL79Q",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+OBT7B90"
+      },
+      {
+        "plate_text": "OBL79R",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+OBT7B90"
+      },
+      {
+        "plate_text": "OBL79S",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+OBT7B90"
+      },
+      {
+        "plate_text": "OBL79T",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+OBT7B90"
+      },
+      {
+        "plate_text": "OBL79U",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+OBT7B90"
+      },
+      {
+        "plate_text": "OBL79V",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+OBT7B90"
+      },
+      {
+        "plate_text": "OBL79W",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+OBT7B90"
+      },
+      {
+        "plate_text": "OBL79X",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+OBT7B90"
+      },
+      {
+        "plate_text": "OBL79Y",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+OBT7B90"
+      },
+      {
+        "plate_text": "OBL79Z",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+OBT7B90"
+      },
+      {
+        "plate_text": "OBL00A",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+C00M8I4"
+      },
+      {
+        "plate_text": "OBL00B",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+C00M8I4"
+      },
+      {
+        "plate_text": "OBL00C",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+C00M8I4"
+      },
+      {
+        "plate_text": "OBL00D",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+C00M8I4"
+      },
+      {
+        "plate_text": "OBL00E",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+C00M8I4"
+      },
+      {
+        "plate_text": "OBL00F",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+C00M8I4"
+      },
+      {
+        "plate_text": "OBL00G",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+C00M8I4"
+      },
+      {
+        "plate_text": "OBL00H",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+C00M8I4"
+      },
+      {
+        "plate_text": "OBL00I",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+C00M8I4"
+      },
+      {
+        "plate_text": "OBL00J",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+C00M8I4"
+      },
+      {
+        "plate_text": "OBL00K",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+C00M8I4"
+      },
+      {
+        "plate_text": "OBL00L",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+C00M8I4"
+      },
+      {
+        "plate_text": "OBL00M",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+C00M8I4"
+      },
+      {
+        "plate_text": "OBL00N",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+C00M8I4"
+      },
+      {
+        "plate_text": "OBL00O",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+C00M8I4"
+      },
+      {
+        "plate_text": "OBL00P",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+C00M8I4"
+      },
+      {
+        "plate_text": "OBL00Q",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+C00M8I4"
+      },
+      {
+        "plate_text": "OBL00R",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+C00M8I4"
+      },
+      {
+        "plate_text": "OBL00S",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+C00M8I4"
+      },
+      {
+        "plate_text": "OBL00T",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+C00M8I4"
+      },
+      {
+        "plate_text": "OBL00U",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+C00M8I4"
+      },
+      {
+        "plate_text": "OBL00V",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+C00M8I4"
+      },
+      {
+        "plate_text": "OBL00W",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+C00M8I4"
+      },
+      {
+        "plate_text": "OBL00X",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+C00M8I4"
+      },
+      {
+        "plate_text": "OBL00Y",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+C00M8I4"
+      },
+      {
+        "plate_text": "OBL00Z",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+C00M8I4"
+      },
+      {
+        "plate_text": "OBL59A",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+590"
+      },
+      {
+        "plate_text": "OBL59B",
+        "ocr_confidence": 0.13155461648800898,
+        "matches_pattern": true,
+        "source": "OBL+590"
+      }
+    ]
+  },
+  {
+    "id": "191a3566",
+    "filename": "191a3566_carro front.jpeg",
+    "timestamp": "2026-06-04T17:14:55.056927",
+    "vehicle_type": "truck",
+    "vehicle_confidence": 0.499,
+    "plate_text": "JNU54O",
+    "ocr_confidence": 0.995,
+    "bbox_ratio": 1.427,
+    "rf_valid": true,
+    "rf_confidence": 0.583,
+    "matches_pattern": true,
+    "dataset_match": null,
+    "ocr_candidates": [
+      {
+        "plate_text": "JNU54O",
+        "ocr_confidence": 0.995170096694895,
+        "matches_pattern": true,
+        "source": "JNU540"
+      },
+      {
+        "plate_text": "COLOMBIA",
+        "ocr_confidence": 0.953333202169799,
+        "matches_pattern": false,
+        "source": "COLOMBIA"
+      },
+      {
+        "plate_text": "COLONBIA",
+        "ocr_confidence": 0.9444521204122673,
+        "matches_pattern": false,
+        "source": "COLONBIA"
+      },
+      {
+        "plate_text": "COLORIBIA",
+        "ocr_confidence": 0.8983043668106324,
+        "matches_pattern": false,
+        "source": "COLORIBIA"
+      },
+      {
+        "plate_text": "IJNU540",
+        "ocr_confidence": 0.7315587778449293,
+        "matches_pattern": false,
+        "source": "IJNU540"
+      },
+      {
+        "plate_text": "JNU5408",
+        "ocr_confidence": 0.596718487210186,
+        "matches_pattern": false,
+        "source": "JNU5408"
+      }
+    ]
+  },
+  {
+    "id": "191a3566",
+    "filename": "191a3566_carro front.jpeg",
+    "timestamp": "2026-06-04T17:14:55.120130",
+    "vehicle_type": "car",
+    "vehicle_confidence": 0.449,
+    "plate_text": "JNU54O",
+    "ocr_confidence": 0.982,
+    "bbox_ratio": 1.394,
+    "rf_valid": true,
+    "rf_confidence": 0.583,
+    "matches_pattern": true,
+    "dataset_match": null,
+    "ocr_candidates": [
+      {
+        "plate_text": "JNU54O",
+        "ocr_confidence": 0.9823154161489699,
+        "matches_pattern": true,
+        "source": "JNU540"
+      },
+      {
+        "plate_text": "COL08I",
+        "ocr_confidence": 0.5307726868676279,
+        "matches_pattern": true,
+        "source": "COLOBI"
+      },
+      {
+        "plate_text": "KJN454",
+        "ocr_confidence": 0.217074570170501,
+        "matches_pattern": true,
+        "source": "KJN454"
+      },
+      {
+        "plate_text": "COLONBIA",
+        "ocr_confidence": 0.9962132947433637,
+        "matches_pattern": false,
+        "source": "COLONBIA"
+      },
+      {
+        "plate_text": "COLOMBIA",
+        "ocr_confidence": 0.953333202169799,
+        "matches_pattern": false,
+        "source": "COLOMBIA"
+      },
+      {
+        "plate_text": "COLORIBIA",
+        "ocr_confidence": 0.8983043668106324,
+        "matches_pattern": false,
+        "source": "COLORIBIA"
+      },
+      {
+        "plate_text": "IJNU540",
+        "ocr_confidence": 0.7169682652118631,
+        "matches_pattern": false,
+        "source": "IJNU540"
+      },
+      {
+        "plate_text": "JNU5401",
+        "ocr_confidence": 0.6446503272875327,
+        "matches_pattern": false,
+        "source": "JNU5401"
+      },
+      {
+        "plate_text": "JNU5408",
+        "ocr_confidence": 0.596718487210186,
+        "matches_pattern": false,
+        "source": "JNU5408"
+      },
+      {
+        "plate_text": "JNU5407",
+        "ocr_confidence": 0.45071731752166,
+        "matches_pattern": false,
+        "source": "JNU5407"
+      }
+    ]
+  },
+  {
+    "id": "83db70d5",
+    "filename": "83db70d5_camionview3.jpeg",
+    "timestamp": "2026-06-04T17:16:46.507226",
+    "vehicle_type": "bus",
+    "vehicle_confidence": 0.486,
+    "plate_text": "LRN55O",
+    "ocr_confidence": 0.642,
+    "bbox_ratio": 0.882,
+    "rf_valid": true,
+    "rf_confidence": 0.583,
+    "matches_pattern": true,
+    "dataset_match": null,
+    "ocr_candidates": [
+      {
+        "plate_text": "LRN55O",
+        "ocr_confidence": 0.6424860317731472,
+        "matches_pattern": true,
+        "source": "LRN55O"
+      },
+      {
+        "plate_text": "CGA55T",
+        "ocr_confidence": 0.011812421759853349,
+        "matches_pattern": true,
+        "source": "CGA55T"
+      },
+      {
+        "plate_text": "LLRN550",
+        "ocr_confidence": 0.21798855015771884,
+        "matches_pattern": false,
+        "source": "LLRN550"
+      }
+    ]
+  },
+  {
+    "id": "70e7a46e",
+    "filename": "70e7a46e_camionview2.jpeg",
+    "timestamp": "2026-06-04T17:20:13.031604",
+    "vehicle_type": "truck",
+    "vehicle_confidence": 0.86,
+    "plate_text": "LPX523",
+    "ocr_confidence": 0.448,
+    "bbox_ratio": 1.268,
+    "rf_valid": false,
+    "rf_confidence": 0.183,
+    "matches_pattern": true,
+    "dataset_match": null,
+    "ocr_candidates": [
+      {
+        "plate_text": "LPX523",
+        "ocr_confidence": 0.447541328361251,
+        "matches_pattern": true,
+        "source": "LPX523"
+      },
+      {
+        "plate_text": "PXS23",
+        "ocr_confidence": 0.39145468175099174,
+        "matches_pattern": true,
+        "source": "PX523"
+      },
+      {
+        "plate_text": "LAG523",
+        "ocr_confidence": 0.15134983237150632,
+        "matches_pattern": true,
+        "source": "LA65Z3"
+      },
+      {
+        "plate_text": "CCD15E",
+        "ocr_confidence": 0.0737901412930359,
+        "matches_pattern": true,
+        "source": "CCDI5E"
+      },
+      {
+        "plate_text": "HCA65A",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65B",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65C",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65D",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65E",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65F",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65G",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65H",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65I",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65J",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65K",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65L",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65M",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65N",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65O",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65P",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65Q",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65R",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65S",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65T",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65U",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65V",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65W",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65X",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65Y",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65Z",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA52A",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52B",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52C",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52D",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52E",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52F",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52G",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52H",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52I",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52J",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52K",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52L",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52M",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52N",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52O",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52P",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52Q",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52R",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52S",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52T",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52U",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52V",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52W",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52X",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52Y",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52Z",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA03A",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03B",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03C",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03D",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03E",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03F",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03G",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03H",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03I",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03J",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03K",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03L",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03M",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03N",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03O",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03P",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03Q",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03R",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03S",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03T",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03U",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03V",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03W",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03X",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      }
+    ]
+  },
+  {
+    "id": "70e7a46e",
+    "filename": "70e7a46e_camionview2.jpeg",
+    "timestamp": "2026-06-04T17:20:13.121659",
+    "vehicle_type": "car",
+    "vehicle_confidence": 0.381,
+    "plate_text": "LPX523",
+    "ocr_confidence": 0.448,
+    "bbox_ratio": 1.023,
+    "rf_valid": false,
+    "rf_confidence": 0.183,
+    "matches_pattern": true,
+    "dataset_match": null,
+    "ocr_candidates": [
+      {
+        "plate_text": "LPX523",
+        "ocr_confidence": 0.447541328361251,
+        "matches_pattern": true,
+        "source": "LPX523"
+      },
+      {
+        "plate_text": "LAG523",
+        "ocr_confidence": 0.15134983237150632,
+        "matches_pattern": true,
+        "source": "LA65Z3"
+      },
+      {
+        "plate_text": "HCA65A",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65B",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65C",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65D",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65E",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65F",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65G",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65H",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65I",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65J",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65K",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65L",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65M",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65N",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65O",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65P",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65Q",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65R",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65S",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65T",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65U",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65V",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65W",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65X",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65Y",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65Z",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA52A",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52B",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52C",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52D",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52E",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52F",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52G",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52H",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52I",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52J",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52K",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52L",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52M",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52N",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52O",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52P",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52Q",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52R",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52S",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52T",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52U",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52V",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52W",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52X",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52Y",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52Z",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA03A",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03B",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03C",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03D",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03E",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03F",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03G",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03H",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03I",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03J",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03K",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03L",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03M",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03N",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03O",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03P",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03Q",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03R",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03S",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03T",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03U",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03V",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03W",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03X",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03Y",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03Z",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      }
+    ]
+  },
+  {
+    "id": "70e7a46e",
+    "filename": "70e7a46e_camionview2.jpeg",
+    "timestamp": "2026-06-04T17:20:13.233514",
+    "vehicle_type": "car",
+    "vehicle_confidence": 0.336,
+    "plate_text": "LPX523",
+    "ocr_confidence": 0.448,
+    "bbox_ratio": 1.107,
+    "rf_valid": false,
+    "rf_confidence": 0.183,
+    "matches_pattern": true,
+    "dataset_match": null,
+    "ocr_candidates": [
+      {
+        "plate_text": "LPX523",
+        "ocr_confidence": 0.447541328361251,
+        "matches_pattern": true,
+        "source": "LPX523"
+      },
+      {
+        "plate_text": "LAG523",
+        "ocr_confidence": 0.15134983237150632,
+        "matches_pattern": true,
+        "source": "LA65Z3"
+      },
+      {
+        "plate_text": "HCA65A",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65B",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65C",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65D",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65E",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65F",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65G",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65H",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65I",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65J",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65K",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65L",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65M",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65N",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65O",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65P",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65Q",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65R",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65S",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65T",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65U",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65V",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65W",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65X",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65Y",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65Z",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA52A",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52B",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52C",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52D",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52E",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52F",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52G",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52H",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52I",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52J",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52K",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52L",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52M",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52N",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52O",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52P",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52Q",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52R",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52S",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52T",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52U",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52V",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52W",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52X",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52Y",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52Z",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA03A",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03B",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03C",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03D",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03E",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03F",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03G",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03H",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03I",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03J",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03K",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03L",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03M",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03N",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03O",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03P",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03Q",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03R",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03S",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03T",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03U",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03V",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03W",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03X",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03Y",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03Z",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      }
+    ]
+  },
+  {
+    "id": "70e7a46e",
+    "filename": "70e7a46e_camionview2.jpeg",
+    "timestamp": "2026-06-04T17:20:13.321618",
+    "vehicle_type": "car",
+    "vehicle_confidence": 0.326,
+    "plate_text": "LPX523",
+    "ocr_confidence": 0.448,
+    "bbox_ratio": 2.25,
+    "rf_valid": true,
+    "rf_confidence": 0.592,
+    "matches_pattern": true,
+    "dataset_match": null,
+    "ocr_candidates": [
+      {
+        "plate_text": "LPX523",
+        "ocr_confidence": 0.447541328361251,
+        "matches_pattern": true,
+        "source": "LPX523"
+      },
+      {
+        "plate_text": "LAG523",
+        "ocr_confidence": 0.15134983237150632,
+        "matches_pattern": true,
+        "source": "LA65Z3"
+      },
+      {
+        "plate_text": "HCA65A",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65B",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65C",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65D",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65E",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65F",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65G",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65H",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65I",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65J",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65K",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65L",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65M",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65N",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65O",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65P",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65Q",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65R",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65S",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65T",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65U",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65V",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65W",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65X",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65Y",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65Z",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA52A",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52B",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52C",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52D",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52E",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52F",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52G",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52H",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52I",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52J",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52K",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52L",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52M",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52N",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52O",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52P",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52Q",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52R",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52S",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52T",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52U",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52V",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52W",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52X",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52Y",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52Z",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA03A",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03B",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03C",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03D",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03E",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03F",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03G",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03H",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03I",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03J",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03K",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03L",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03M",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03N",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03O",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03P",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03Q",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03R",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03S",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03T",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03U",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03V",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03W",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03X",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03Y",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03Z",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      }
+    ]
+  },
+  {
+    "id": "70e7a46e",
+    "filename": "70e7a46e_camionview2.jpeg",
+    "timestamp": "2026-06-04T17:20:13.405303",
+    "vehicle_type": "car",
+    "vehicle_confidence": 0.323,
+    "plate_text": "LPX523",
+    "ocr_confidence": 0.448,
+    "bbox_ratio": 2.353,
+    "rf_valid": true,
+    "rf_confidence": 0.592,
+    "matches_pattern": true,
+    "dataset_match": null,
+    "ocr_candidates": [
+      {
+        "plate_text": "LPX523",
+        "ocr_confidence": 0.447541328361251,
+        "matches_pattern": true,
+        "source": "LPX523"
+      },
+      {
+        "plate_text": "LAG523",
+        "ocr_confidence": 0.15134983237150632,
+        "matches_pattern": true,
+        "source": "LA65Z3"
+      },
+      {
+        "plate_text": "HCA65A",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65B",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65C",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65D",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65E",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65F",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65G",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65H",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65I",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65J",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65K",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65L",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65M",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65N",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65O",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65P",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65Q",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65R",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65S",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65T",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65U",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65V",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65W",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65X",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65Y",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65Z",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA52A",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52B",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52C",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52D",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52E",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52F",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52G",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52H",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52I",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52J",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52K",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52L",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52M",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52N",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52O",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52P",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52Q",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52R",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52S",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52T",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52U",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52V",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52W",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52X",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52Y",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52Z",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA03A",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03B",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03C",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03D",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03E",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03F",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03G",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03H",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03I",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03J",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03K",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03L",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03M",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03N",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03O",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03P",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03Q",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03R",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03S",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03T",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03U",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03V",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03W",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03X",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03Y",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03Z",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      }
+    ]
+  },
+  {
+    "id": "70e7a46e",
+    "filename": "70e7a46e_camionview2.jpeg",
+    "timestamp": "2026-06-04T17:20:13.515889",
+    "vehicle_type": "car",
+    "vehicle_confidence": 0.263,
+    "plate_text": "LPX523",
+    "ocr_confidence": 0.448,
+    "bbox_ratio": 1.0,
+    "rf_valid": false,
+    "rf_confidence": 0.183,
+    "matches_pattern": true,
+    "dataset_match": null,
+    "ocr_candidates": [
+      {
+        "plate_text": "LPX523",
+        "ocr_confidence": 0.447541328361251,
+        "matches_pattern": true,
+        "source": "LPX523"
+      },
+      {
+        "plate_text": "LAG523",
+        "ocr_confidence": 0.15134983237150632,
+        "matches_pattern": true,
+        "source": "LA65Z3"
+      },
+      {
+        "plate_text": "HCA65A",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65B",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65C",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65D",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65E",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65F",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65G",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65H",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65I",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65J",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65K",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65L",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65M",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65N",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65O",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65P",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65Q",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65R",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65S",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65T",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65U",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65V",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65W",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65X",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65Y",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA65Z",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LA65Z3"
+      },
+      {
+        "plate_text": "HCA52A",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52B",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52C",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52D",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52E",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52F",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52G",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52H",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52I",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52J",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52K",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52L",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52M",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52N",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52O",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52P",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52Q",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52R",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52S",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52T",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52U",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52V",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52W",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52X",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52Y",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA52Z",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+LPX523"
+      },
+      {
+        "plate_text": "HCA03A",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03B",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03C",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03D",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03E",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03F",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03G",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03H",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03I",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03J",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03K",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03L",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03M",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03N",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03O",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03P",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03Q",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03R",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03S",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03T",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03U",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03V",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03W",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03X",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03Y",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      },
+      {
+        "plate_text": "HCA03Z",
+        "ocr_confidence": 0.057765899301741,
+        "matches_pattern": true,
+        "source": "HCA+030"
+      }
+    ]
+  },
+  {
+    "id": "678dae90",
+    "filename": "678dae90_tracktomulaview4.jpg",
+    "timestamp": "2026-06-04T17:28:38.398464",
+    "vehicle_type": "truck",
+    "vehicle_confidence": 0.85,
+    "plate_text": "SJO68Z",
+    "ocr_confidence": 0.809,
+    "bbox_ratio": 0.968,
+    "rf_valid": true,
+    "rf_confidence": 0.583,
+    "matches_pattern": true,
+    "dataset_match": null,
+    "ocr_candidates": [
+      {
+        "plate_text": "SJO68Z",
+        "ocr_confidence": 0.8092798511120525,
+        "matches_pattern": true,
+        "source": "SJO682"
+      },
+      {
+        "plate_text": "540GBZ",
+        "ocr_confidence": 0.29604880735538003,
+        "matches_pattern": true,
+        "source": "S40682"
+      },
+      {
+        "plate_text": "LOP22",
+        "ocr_confidence": 0.2763489057717664,
+        "matches_pattern": true,
+        "source": "LOP22"
+      },
+      {
+        "plate_text": "SJ01682",
+        "ocr_confidence": 0.5329314608876606,
+        "matches_pattern": false,
+        "source": "SJ01682"
+      },
+      {
+        "plate_text": "LOPE2",
+        "ocr_confidence": 0.3813179455200055,
+        "matches_pattern": false,
+        "source": "LOPE2"
+      },
+      {
+        "plate_text": "F3O68Z",
+        "ocr_confidence": 0.25109178510771996,
+        "matches_pattern": false,
+        "source": "F30682"
+      },
+      {
+        "plate_text": "FSJ0682",
+        "ocr_confidence": 0.24963352381304194,
+        "matches_pattern": false,
+        "source": "FSJ0682"
+      },
+      {
+        "plate_text": "S406827",
+        "ocr_confidence": 0.23351514660272635,
+        "matches_pattern": false,
+        "source": "S406827"
+      },
+      {
+        "plate_text": "O9Z25",
+        "ocr_confidence": 0.0626029906263034,
+        "matches_pattern": false,
+        "source": "O9225"
+      }
+    ]
+  },
+  {
+    "id": "678dae90",
+    "filename": "678dae90_tracktomulaview4.jpg",
+    "timestamp": "2026-06-04T17:28:38.494459",
+    "vehicle_type": "car",
+    "vehicle_confidence": 0.258,
+    "plate_text": "SJO68Z",
+    "ocr_confidence": 0.789,
+    "bbox_ratio": 0.833,
+    "rf_valid": true,
+    "rf_confidence": 0.583,
+    "matches_pattern": true,
+    "dataset_match": null,
+    "ocr_candidates": [
+      {
+        "plate_text": "SJO68Z",
+        "ocr_confidence": 0.7889742964068365,
+        "matches_pattern": true,
+        "source": "SJO682"
+      },
+      {
+        "plate_text": "LOP22",
+        "ocr_confidence": 0.2763489057717664,
+        "matches_pattern": true,
+        "source": "LOP22"
+      },
+      {
+        "plate_text": "LOPE2",
+        "ocr_confidence": 0.3813179455200055,
+        "matches_pattern": false,
+        "source": "LOPE2"
+      },
+      {
+        "plate_text": "F3O68Z",
+        "ocr_confidence": 0.25109178510771996,
+        "matches_pattern": false,
+        "source": "F30682"
+      },
+      {
+        "plate_text": "FSJ0682",
+        "ocr_confidence": 0.24963352381304194,
+        "matches_pattern": false,
+        "source": "FSJ0682"
+      },
+      {
+        "plate_text": "S406827",
+        "ocr_confidence": 0.23351514660272635,
+        "matches_pattern": false,
+        "source": "S406827"
+      },
+      {
+        "plate_text": "O9Z25",
+        "ocr_confidence": 0.0626029906263034,
+        "matches_pattern": false,
+        "source": "O9225"
+      }
+    ]
+  },
+  {
+    "id": "37201a69",
+    "filename": "37201a69_camionview3.jpeg",
+    "timestamp": "2026-06-04T17:49:11.858205",
+    "vehicle_type": "bus",
+    "vehicle_confidence": 0.486,
+    "plate_text": "LRN55O",
+    "ocr_confidence": 0.642,
+    "bbox_ratio": 0.882,
+    "rf_valid": true,
+    "rf_confidence": 0.583,
+    "matches_pattern": true,
+    "dataset_match": null,
+    "ocr_candidates": [
+      {
+        "plate_text": "LRN55O",
+        "ocr_confidence": 0.6424860317731472,
+        "matches_pattern": true,
+        "source": "LRN55O"
+      },
+      {
+        "plate_text": "CGA55T",
+        "ocr_confidence": 0.011812421759853349,
+        "matches_pattern": true,
+        "source": "CGA55T"
+      },
+      {
+        "plate_text": "LLRN550",
+        "ocr_confidence": 0.21798855015771884,
+        "matches_pattern": false,
+        "source": "LLRN550"
+      }
+    ]
+  },
+  {
+    "id": "b6be5a24",
+    "filename": "b6be5a24_vehiculoview10.webp",
+    "timestamp": "2026-06-04T17:52:11.715639",
+    "vehicle_type": "truck",
+    "vehicle_confidence": 0.692,
+    "plate_text": "JXO169",
+    "ocr_confidence": 0.4,
+    "bbox_ratio": 1.694,
+    "rf_valid": false,
+    "rf_confidence": 0.183,
+    "matches_pattern": true,
+    "dataset_match": null,
+    "ocr_candidates": [
+      {
+        "plate_text": "JXO169",
+        "ocr_confidence": 0.3997429695009577,
+        "matches_pattern": true,
+        "source": "JXO169"
+      },
+      {
+        "plate_text": "IJXO169",
+        "ocr_confidence": 0.4509645923443355,
+        "matches_pattern": false,
+        "source": "IJXO169"
+      },
+      {
+        "plate_text": "IUJXO169",
+        "ocr_confidence": 0.3259127108913325,
+        "matches_pattern": false,
+        "source": "IUJXO169"
+      },
+      {
+        "plate_text": "IJXO1691",
+        "ocr_confidence": 0.258115747568657,
+        "matches_pattern": false,
+        "source": "IJXO1691"
+      },
+      {
+        "plate_text": "4XQ169",
+        "ocr_confidence": 0.16610096016386927,
+        "matches_pattern": false,
+        "source": "4XQ169"
+      }
+    ]
+  },
+  {
+    "id": "fc6bd3e2",
+    "filename": "fc6bd3e2_img.webp",
+    "timestamp": "2026-06-04T18:45:18.664290",
+    "vehicle_type": "car",
+    "vehicle_confidence": 0.721,
+    "plate_text": "NXP23H",
+    "ocr_confidence": 0.997,
+    "bbox_ratio": 1.146,
+    "rf_valid": true,
+    "rf_confidence": 0.583,
+    "matches_pattern": true,
+    "dataset_match": null,
+    "ocr_candidates": [
+      {
+        "plate_text": "NXP23H",
+        "ocr_confidence": 0.9970737616860199,
+        "matches_pattern": true,
+        "source": "NXP23H"
+      },
+      {
+        "plate_text": "OLB48M",
+        "ocr_confidence": 0.04481716886088008,
+        "matches_pattern": true,
+        "source": "OL848M"
+      },
+      {
+        "plate_text": "NXP223H",
+        "ocr_confidence": 0.956407974468326,
+        "matches_pattern": false,
+        "source": "NXP223H"
+      },
+      {
+        "plate_text": "IOG1E",
+        "ocr_confidence": 0.09747984977105188,
+        "matches_pattern": false,
+        "source": "1061E"
+      }
+    ]
+  },
+  {
+    "id": "fc6bd3e2",
+    "filename": "fc6bd3e2_img.webp",
+    "timestamp": "2026-06-04T18:45:18.733112",
+    "vehicle_type": "motorcycle",
+    "vehicle_confidence": 0.406,
+    "plate_text": "NXP23H",
+    "ocr_confidence": 0.997,
+    "bbox_ratio": 0.697,
+    "rf_valid": true,
+    "rf_confidence": 0.583,
+    "matches_pattern": true,
+    "dataset_match": null,
+    "ocr_candidates": [
+      {
+        "plate_text": "NXP23H",
+        "ocr_confidence": 0.9970737616860199,
+        "matches_pattern": true,
+        "source": "NXP23H"
+      },
+      {
+        "plate_text": "OLB48M",
+        "ocr_confidence": 0.04481716886088008,
+        "matches_pattern": true,
+        "source": "OL848M"
+      },
+      {
+        "plate_text": "NXP223H",
+        "ocr_confidence": 0.956407974468326,
+        "matches_pattern": false,
+        "source": "NXP223H"
+      },
+      {
+        "plate_text": "IOG1E",
+        "ocr_confidence": 0.09747984977105188,
+        "matches_pattern": false,
+        "source": "1061E"
+      }
+    ]
+  },
+  {
+    "id": "fc6bd3e2",
+    "filename": "fc6bd3e2_img.webp",
+    "timestamp": "2026-06-04T18:45:18.812069",
+    "vehicle_type": "motorcycle",
+    "vehicle_confidence": 0.375,
+    "plate_text": "NXP23H",
+    "ocr_confidence": 0.997,
+    "bbox_ratio": 0.701,
+    "rf_valid": true,
+    "rf_confidence": 0.583,
+    "matches_pattern": true,
+    "dataset_match": null,
+    "ocr_candidates": [
+      {
+        "plate_text": "NXP23H",
+        "ocr_confidence": 0.9970737616860199,
+        "matches_pattern": true,
+        "source": "NXP23H"
+      },
+      {
+        "plate_text": "OLB48M",
+        "ocr_confidence": 0.04481716886088008,
+        "matches_pattern": true,
+        "source": "OL848M"
+      },
+      {
+        "plate_text": "NXP223H",
+        "ocr_confidence": 0.956407974468326,
+        "matches_pattern": false,
+        "source": "NXP223H"
+      },
+      {
+        "plate_text": "IOG1E",
+        "ocr_confidence": 0.09747984977105188,
+        "matches_pattern": false,
+        "source": "1061E"
+      }
+    ]
+  }
+]

@@ -1,15 +1,17 @@
-"""SmartPark AI — Punto de entrada único.
+"""PlacasCO - punto de entrada principal.
 
 Ejecuta:
     python main.py
 
-Abre http://localhost:8000 en tu navegador.
+Abre http://localhost:8000/docs para probar la API.
 """
+
 import uvicorn
+
 
 if __name__ == "__main__":
     uvicorn.run(
-        "web.api:app",
+        "api.app:app",
         host="0.0.0.0",
         port=8000,
         reload=False,
