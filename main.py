@@ -8,9 +8,10 @@ from pathlib import Path
 from typing import List
 
 import uvicorn
-from fastapi import FastAPI, File, HTTPException, UploadFile
+from fastapi import FastAPI, File, HTTPException, Request, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import StreamingResponse
+from fastapi.responses import FileResponse
+from fastapi.staticfiles import StaticFiles
 import cv2
 import numpy as np
 
@@ -37,6 +38,7 @@ app.add_middleware(
 )
 
 ROOT_DIR = Path(__file__).parent
+FRONTEND_DIR = ROOT_DIR / "frontend" / "dist"
 RESULTS_DIR = ROOT_DIR / "data" / "results"
 RESULTS_FILE = RESULTS_DIR / "detections.json"
 RESULTS_DIR.mkdir(exist_ok=True, parents=True)
@@ -104,9 +106,17 @@ def process_detections(file_id: str, filename: str, detections: list[dict]) -> l
     return processed
 
 
+# ── Servir el frontend compilado ──────────────────────────────────────────
+if FRONTEND_DIR.exists():
+    app.mount("/assets", StaticFiles(directory=str(FRONTEND_DIR / "assets")), name="static")
+
+
 @app.get("/")
-def root():
-    return {"status": "ok", "message": "API Placas Colombia activa"}
+def serve_index():
+    index = FRONTEND_DIR / "index.html"
+    if index.exists():
+        return FileResponse(str(index))
+    return {"status": "ok", "message": "API Placas Colombia activa (frontend no compilado)"}
 
 
 @app.post("/upload")
@@ -208,4 +218,4 @@ def clear_results():
 
 
 if __name__ == "__main__":
-    uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
+    uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=False)

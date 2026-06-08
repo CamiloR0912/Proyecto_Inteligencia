@@ -9,7 +9,7 @@ import {
   ScatterChart, Scatter, ZAxis,
 } from "recharts";
 
-const API = "http://localhost:8000";
+const API = "";
 
 // ── Colores del tema ───────────────────────────────────────────────────
 const COLORS = {

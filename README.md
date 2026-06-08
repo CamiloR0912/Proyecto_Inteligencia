@@ -1,68 +1,93 @@
 # 🏍️🚗 PlacasCO — Sistema de Clasificación e Identificación de Placas
 
-PlacasCO es un sistema integral basado en Inteligencia Computacional diseñado para detectar, clasificar y leer placas vehiculares (enfocado en motocicletas y automóviles colombianos). El sistema consta de un pipeline de Deep Learning que procesa imágenes en tiempo real, validándolas semánticamente, y un Dashboard analítico para su monitoreo.
+PlacasCO es un sistema basado en Inteligencia Computacional diseñado para detectar, clasificar y leer placas vehiculares colombianas (enfocado en motocicletas y automóviles). El sistema procesa imágenes mediante un pipeline de Deep Learning, las valida semánticamente, y presenta los resultados en un Dashboard analítico interactivo.
 
 ## 🏗️ Arquitectura del Sistema
 
-El proyecto está construido bajo una arquitectura de microservicios separando el procesamiento pesado de la interfaz gráfica:
+El proyecto unifica el backend y el frontend en un solo servidor para facilitar su ejecución:
 
-1. **Inteligencia Computacional (Pipeline de Visión):**
-   - **YOLOv8:** Utilizado para la detección y clasificación multi-clase (distingue entre Motocicleta, Carro, Bus, etc.) aislando el ROI (Region of Interest).
-   - **EasyOCR:** Modelo CRNN empleado para extraer ópticamente el texto de la placa del vehículo recortado.
-   - **Módulo PLN (Procesamiento de Lenguaje Natural):** Algoritmo de normalización y reglas RegEx que corrige errores ópticos comunes (ej. `0` por `O`) asegurando el patrón oficial de Colombia.
+1. **Pipeline de Visión (Inteligencia Computacional):**
+   - **YOLOv8:** Detección y clasificación multi-clase de vehículos (Motocicleta, Carro, Bus, Camión), aislando el ROI (Region of Interest).
+   - **EasyOCR:** Modelo CRNN para extraer ópticamente el texto de la placa desde el recorte del vehículo.
+   - **Normalización y Validación:** Algoritmo de corrección con reglas RegEx que corrige errores ópticos comunes (ej. `0` por `O`, bordes confundidos con `I` o `1`) asegurando el patrón oficial colombiano.
 
-2. **Backend (FastAPI):**
-   - Servidor asíncrono que expone la lógica computacional a través de endpoints REST (`/upload`, `/stats`, `/results`).
-   - Almacena el historial de detecciones para visualizaciones históricas.
+2. **Clasificador Random Forest:**
+   - Modelo de Machine Learning clásico que valida si las características extraídas (longitud, letras, dígitos, confianza OCR, ratio del bounding box) corresponden a una placa real o a un falso positivo.
 
-3. **Frontend (React + Vite):**
-   - Dashboard interactivo y dinámico que consume el API en tiempo real.
-   - Incorpora 3 visualizaciones analíticas con Recharts: Distribución vehicular, métricas de validez de OCR y dispersión de confianza estadística.
+3. **Backend + Frontend unificado (FastAPI + React):**
+   - Servidor que expone la lógica computacional a través de endpoints REST (`/upload`, `/stats`, `/results`) y al mismo tiempo sirve la interfaz web compilada.
+   - Dashboard interactivo con 3 visualizaciones analíticas (Recharts): distribución vehicular, métricas del clasificador RF, y dispersión de confianza OCR vs YOLO.
 
 ## 🚀 Requisitos Previos
 
-- Python 3.10 o superior (Testeado con entornos hasta 3.14 Alfa).
-- Node.js (v18 o superior) y npm.
+- **Python 3.10 o superior.**
 - Opcional: Tarjeta gráfica compatible con CUDA para acelerar la inferencia de YOLOv8.
+
+> **Nota:** No es necesario tener Node.js instalado. El frontend ya viene pre-compilado en la carpeta `frontend/dist/`.
 
 ## ⚙️ Instalación y Ejecución
 
-Debes levantar ambos servicios (Backend y Frontend) en terminales separadas.
+### Opción 1: Un Clic (Recomendada)
 
-### 1. Levantar el Backend (FastAPI)
-Abre una terminal en la raíz del proyecto (`Proyecto_Inteligencia/`):
+#### Windows
+1. Hacer doble clic en **`Instalar_PlacasCO.bat`** (solo la primera vez).
+2. Hacer doble clic en **`Iniciar_PlacasCO.bat`**.
+3. El navegador se abrirá automáticamente con la aplicación.
+
+#### Mac / Linux
+1. Hacer doble clic en **`Instalar_PlacasCO.command`** (solo la primera vez).
+2. Hacer doble clic en **`Iniciar_PlacasCO.command`**.
+3. El navegador se abrirá automáticamente con la aplicación.
+
+> Si los archivos `.command` no se ejecutan, abrir una terminal y ejecutar: `chmod +x *.command`
+
+### Opción 2: Manual (Terminal)
 
 ```bash
-# 1. Activar el entorno virtual (opcional pero recomendado)
-.\venv\Scripts\Activate.ps1
+# 1. Crear y activar el entorno virtual
+python -m venv venv
+# Windows:
+.\venv\Scripts\activate
+# Mac/Linux:
+source venv/bin/activate
 
 # 2. Instalar dependencias
 pip install -r requirements.txt
 
-# 3. Iniciar el servidor API
-python api\app.py
+# 3. Iniciar el servidor
+python main.py
 ```
-*El backend quedará corriendo en `http://localhost:8000`.*
 
-> **Nota sobre scikit-learn:** Si estás corriendo una versión de Python muy reciente (ej. 3.14 Alfa) para la cual no existen binarios de scikit-learn, el sistema automáticamente hará un fallback a la validación estricta por reglas (PLN/RegEx), por lo que la aplicación seguirá funcionando sin interrupciones.
-
-### 2. Levantar el Frontend (React)
-Abre una **nueva terminal** y navega a la carpeta `frontend/`:
-
-```bash
-# 1. Entrar al directorio
-cd frontend
-
-# 2. Instalar dependencias de Node
-npm install
-
-# 3. Iniciar el servidor de desarrollo
-npm run dev
-```
-*El dashboard quedará corriendo en `http://localhost:5173`. Abre este enlace en tu navegador.*
+Abrir `http://localhost:8000` en el navegador.
 
 ## 📊 Uso del Dashboard
+
 1. Ve a la pestaña **📤 Subir Imágenes**.
 2. Arrastra una foto o múltiples fotos de vehículos (carros o motos).
-3. El pipeline aislará la placa y la leerá en fracciones de segundo.
+3. El pipeline aislará la placa y la leerá en segundos.
 4. Cambia a la pestaña **📊 Visualizaciones** para ver cómo tus detecciones alimentan los gráficos en tiempo real.
+5. Revisa la pestaña **📋 Resultados** para ver el historial detallado de todas las detecciones.
+
+## 📁 Estructura del Proyecto
+
+```
+Proyecto_Inteligencia/
+├── main.py                  # Servidor FastAPI (API + Frontend)
+├── requirements.txt         # Dependencias de Python
+├── yolov8n.pt               # Pesos del modelo YOLOv8
+├── Instalar_PlacasCO.bat    # Instalador (Windows)
+├── Instalar_PlacasCO.command# Instalador (Mac/Linux)
+├── Iniciar_PlacasCO.bat     # Ejecutar app (Windows)
+├── Iniciar_PlacasCO.command # Ejecutar app (Mac/Linux)
+├── detection/               # Módulo de detección (YOLO + OCR)
+│   ├── detector.py
+│   └── plate_utils.py
+├── ml/                      # Clasificador Random Forest
+│   ├── classifier.py
+│   ├── rf_model.pkl
+│   └── scaler.pkl
+├── frontend/                # Interfaz web (React)
+│   ├── dist/                # Frontend compilado (producción)
+│   └── src/                 # Código fuente React
+└── data/results/            # Historial de detecciones (JSON)
+```
